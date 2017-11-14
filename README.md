@@ -28,7 +28,7 @@ With this library, the major part of the work is properly defining a type to con
 
 What have we done here ?
 * For the `--stringSwitch` switch, we have defined a `string` property. The attribute links the switch and the property through its first parameter. To define the switch as required, we used the second parameter of the attribute. If the switch is not used in the command line, an `ArgumentException` is thrown.
-* For the `--booleanSwitch` switch, we have defined a `boolean` property which is set to `true` when the switch is used in the command ligne arguments.
+* For the `--booleanSwitch` switch, we have defined a `boolean` property which is set to `true` when the switch is used in the command line arguments.
 * For the `--arraySwitch` switch, we defined an array property. Here, its type is `string[]`, but it could also have been a numeric array, for example. Each use of the switch populates the array.
 
 Once this is done, a call to the method `ApplicationMapper<T>.LoadArgs(string[] args)` actually does all the work.
