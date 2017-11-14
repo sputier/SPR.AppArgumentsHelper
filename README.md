@@ -46,5 +46,5 @@ Once this is done, a call to the method `ApplicationMapper<T>.LoadArgs(string[] 
     
 The member `_arguments` is displayed here :
 
-![AppArguments_result](./AppArguments_result.png)
+![AppArguments_Result](AppArguments_Result.png)
 
