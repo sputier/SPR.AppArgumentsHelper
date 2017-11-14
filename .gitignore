@@ -1,0 +1,10 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs/SPR.AppArgumentsHelper/v15
+/src/packages
+/src/SPR.AppArgumentsHelper/bin
+/src/SPR.AppArgumentsHelper/obj
+/src/SPR.AppArgumentsHelper.Tests/bin/Debug
+/src/SPR.AppArgumentsHelper.Tests/obj/Debug
